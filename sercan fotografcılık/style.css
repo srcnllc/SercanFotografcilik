@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+    }
+#social{
+    background-color:#f1f1f1;
+    border-radius:10px;
+    color: black;
+    height: 70px;
+    width: 97%;
+    position: relative;
+    top:0;
+    left: 20px;
+    right: 20px;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 1px;
+    box-shadow:0px 2px 8px 2px rgba(20,23,28,15);
+    margin-bottom: 15px;
+
+    }
+h4{
+    font-family:Chiller;
+    font-size: 20px;
+    letter-spacing: 5px;
+    } 
+h4:hover{
+    color: red ;
+}
+#bir{
+    height: 150px;
+    position: absolute;
+    top:30px;
+    left: 37%;
+}
+#iki{
+    height: 150px;
+    position: absolute;
+    top:30px;
+    left: 61%;
+}
+
+#ses{
+    position: absolute;
+    top: 10px;
+    left: 75%;
+}
+#container{
+    width: 97%;
+    margin: auto;
+    padding:auto;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0px 2px 8px 2px rgba(20,23,28,15);
+    overflow: auto;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+
+}
+nav{
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+    text-align: center;
+    font-family:Plicata PERSONAL USE ONLY ;
+    font-size: 20px;
+
+}
+nav ul{
+    width:auto;
+    height:100%; 
+}
+nav li{
+    list-style-type:none;
+    display: inline;
+
+}
+nav li a{
+    height:50px;
+    line-height:50px;
+    text-decoration:none;
+    color:black;
+    padding-left: 20px;
+}
+/**.foto{
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+}
+nav li a:hover{
+    color: white;
+    font-size: 25px;
+    background-color:skyblue;
+}**/
+i{
+    margin-right: 10px;
+}
+span.vurgu{
+    color: brown;
+    font-size: 35px;
+    font-family:Plicata PERSONAL USE ONLY ;
+}
+main{
+    height: auto;
+    width: 70%;
+    text-align: center;
+    position:relative;
+    left: 200px;
+    padding: 30px;
+}
+#asyf{
+    width:100%;
+    height: 470px;
+    background-image: url(logo/fon2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    border-radius: 10px;
+    transform: scale(0.5s);
+}
+#asyf:hover{
+    transition: 0.8s;
+    opacity: 0.8;
+}
+#asyf nav {
+    position: relative;
+    top: 50px;
+}
+#asyf nav li a{
+    color: white;
+}
+#hosgeldin{
+    text-align: center;
+    color: white;
+    position: relative;
+    top:25px;
+    font-size: 100px;
+    font-family: Chiller;
+}
+#cay{
+    position: absolute;
+    top:140px;
+    left:250px;
+    font-size:20px;
+    font-family:Berlin Sans FB Demi;
+}
+footer{
+    width: 97%;
+    height: 50px;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:0px 2px 8px 2px rgba(20,23,28,15);
+    margin-top: 15px;
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+}
+h1{
+    text-align: center;
+    background-color:#706f6f;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    color: white;
+    box-shadow:0px 1px 4px 1px rgba(20,23,28,15);
+    font-family:MV Boli;
+}
+#hakkımızdarsm{
+    width: 350px;
+    height: 300px;
+    float:left;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow:0px 1px 4px 1px rgba(20,23,28,15);
+    transition:opacity 0.8;
+}
+#hakkımızdarsm:hover{
+    opacity:0.6;
+}
+.hakyazi{
+    text-indent: 20px;
+}
+#addres{
+        width: 250px;
+        font-weight: bold;
+        position: absolute;
+        top: 50px;
+}
+.box{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+
+}
+.box li{
+    list-style: none;
+    float: left;
+    text-indent: 10px;
+}
+.box li a{
+    color:#007fff; 
+    font-size: 30px;
+}
+form{
+    width: 350px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+input {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+input[type=submit], input[type=reset] {
+    background-color: #007fff;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
